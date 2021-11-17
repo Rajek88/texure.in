@@ -152,3 +152,42 @@ body {
 .AWS {
   width: 300px;
 }
+
+.contact-form {
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9b00f3;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.contact-form form {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-form form strong {
+  text-align: start;
+}
+
+.contact-form form input {
+  width: 90%;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form form button {
+  padding: 8px 12px;
+  background-color: #9b00f3;
+  color: #ffffff;
+  border: none;
+}
